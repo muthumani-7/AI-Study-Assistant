@@ -4,9 +4,9 @@ An AI-powered learning assistant built using Streamlit and Google's Gemini API. 
 
 ## Live Demo
 
-**Live App:** [https://ai-study-assistant-xdcrvcd37tmawjfwcbgxqq.streamlit.app/]
+**Live App:** https://ai-study-assistant-xdcrvcd37tmawjfwcbgxqq.streamlit.app/
 
-**GitHub Repository:** [https://github.com/muthumani-7/AI-Study-Assistant]
+**GitHub Repository:** https://github.com/muthumani-7/AI-Study-Assistant
 
 ## Features
 
@@ -29,13 +29,16 @@ An AI-powered learning assistant built using Streamlit and Google's Gemini API. 
 
 ## Project Structure
 
-```text
 AI-Study-Assistant/
 ├── app.py
 ├── requirements.txt
 ├── .gitignore
-└── README.md
-```
+├── README.md
+└── screenshots/
+    ├── home.png
+    ├── pdf-reader.png
+    ├── quiz.png
+    └── study-notes.png
 
 The `.env` file is used for local configuration and must not be committed to the public repository. Chat history files and other private data should also be excluded.
 
@@ -44,8 +47,7 @@ The `.env` file is used for local configuration and must not be committed to the
 ### 1. Clone the repository
 
 ```bash
-git clone 
-https://github.com/muthumani-7/AI-Study-Assistant
+git clone https://github.com/muthumani-7/AI-Study-Assistant.git
 cd AI-Study-Assistant
 ```
 
